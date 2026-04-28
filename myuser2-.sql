@@ -7,7 +7,7 @@
 
 --This table will store all changes.
 
---Step 1: Audit Table (Your table is fine)
+--Step 1: Audit Table 
 CREATE TABLE ddl_audit_log (
     username      VARCHAR2(50),
     event_type    VARCHAR2(50),
